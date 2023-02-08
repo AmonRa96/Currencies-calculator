@@ -1,0 +1,50 @@
+.currency{
+    display: flex;
+}
+ 
+.result{
+    display: flex;
+    align-items: start;
+    margin-left: 40px;
+}
+.math{
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.input{
+    width: 100px;
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;  
+}
+
+.rightButtons{
+display: flex;
+font-size: 30px;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.rightButton{
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif; 
+    cursor: pointer;
+   
+}

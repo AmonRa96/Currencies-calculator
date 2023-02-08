@@ -1,0 +1,43 @@
+.App{
+   
+    height: 300px;
+    padding: 100px;
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(151, 209, 189);
+   
+}
+
+.todayCurrencies{
+    margin-right: 50px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 10px;
+   padding: 20px;
+   background-color: rgb(201, 112, 52); 
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+  
+}
+.leftButtons{
+    display: flex;
+    font-size: 30px;
+    
+}
+.flag{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.leftButton{
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
