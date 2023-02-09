@@ -1,0 +1,11 @@
+.todayCurrencies{
+    margin-right: 50px;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid;
+    border-radius: 10px;   
+    background-color: rgb(201, 112, 52); 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

@@ -1,0 +1,49 @@
+.currencyHave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons span{
+    font-size: 30px;
+}
+
+.button{
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;    
+    cursor: pointer;   
+}
+
+.activeButton{
+    margin-left: 3px;
+    padding: 4px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 30px; 
+    font-weight: bold;    
+    cursor: pointer;  
+}
+
+.activeButton img{
+    width: 25px;
+}
+
+.input{
+    width: 100px;
+    margin-left: 3px;
+    padding: 2px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-size: 20px;  
+}
