@@ -22,10 +22,10 @@ export  const CurrencyWant = ({amCu,ruCu,usCu,euCu,value})=>{
       setMult(ruCu);
     }
     if(isEU){
-      setMult(usCu);
+      setMult(euCu);
     }
     if(isUSD){
-      setMult(euCu);
+      setMult(usCu);
     }  
   },[amCu,ruCu,usCu,euCu,isAMD, isRUB, isEU,isUSD]); 
  
